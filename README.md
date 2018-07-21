@@ -22,13 +22,13 @@ chmod +x launch
 
 killall screen && killall tmux && killall bash 
 
-cd Cleare
+cd Claire
 
 screen ./launch cli
 
 #### open another terminal and enter :
 
-cd Cleare 
+cd Claire
 
 screen ./launch api
 
