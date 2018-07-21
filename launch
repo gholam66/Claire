@@ -44,7 +44,7 @@ sudo apt install yum
 sudo yum install ntp -y
 sudo apt install ntpdate
 sudo ntpdate ntp-server.parsdev.net
-chmod +x launch.sh
+chmod +x Autolaunch
 cd Data
 chmod +x Helper
 chmod +x TDBot
