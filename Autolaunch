@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-tmux kill-session -t "Cli"
-tmux kill-session -t "Api"
+tmux kill-session -t "TDBot"
+tmux kill-session -t "Helper"
 
 echo "Start Launch ...."
 echo "█▒▒▒▒▒▒▒▒▒ 10%"
@@ -41,18 +41,18 @@ echo ""
 echo ""
 echo "██████████ 100%"
 sleep 1
-echo "Base TDBot ( CerNer )"
+echo "Base TDBot ( gladiator )"
 sleep 0.7
 echo ""
-echo "Edit By @RexProgs"
+echo "Edit By @didi47"
 sleep 0.7
 echo ""
-echo "Channel @RexCompany"
+echo "Channel @ragnarbot2"
 sleep 2
-tmux new-session -d -s "Cli" "./Download/Cli"
-tmux detach -s "Cli"
+tmux new-session -d -s "TDBot" "./Data/TDBot"
+tmux detach -s "TDBot"
 echo "Cli and Api Now Running!"
 echo "... The terminal is Closed ..."
 sleep 5
-tmux new-session -d -s "Api" "./Download/Api"
+tmux new-session -d -s "Helper" "./Data/Helper"
 tmux detach -s "Api"
