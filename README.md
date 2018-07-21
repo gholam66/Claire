@@ -22,9 +22,9 @@ chmod +x launch
 
 killall screen && killall tmux && killall bash 
 
-cd Claire
+cd Claire && screen ./launch cli
 
-screen ./launch cli
+
 
 #### open another terminal and enter :
 
